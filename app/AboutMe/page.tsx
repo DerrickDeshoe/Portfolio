@@ -8,12 +8,12 @@ const page = () => {
       <div className=" flex absolute top-0 w-full h-full bg-overlay bg-opacity-[50%] items-start">
         <div className="flex flex-col space-y-5 lg:w-[80%] px-10 lg:mt-20">
          <div className="w-[35%]">
-          <Image src={AboutMe} alt='Image' />
+          <Image src={AboutMe} alt="Image" />
          </div>
           <div className="flex flex-col relative">
             <div className="relative">
               <h1 className="font-bold lg:text-4xl text-[20px] lg:w-[460px] ">
-                I'm a skilled web developer, UX/UI designer, and digital
+                I&apos;m a skilled web developer, UX/UI designer, and digital
                 marketer.
               </h1>
               <div className="absolute bottom-0 right-[95px] lg:hidden">
@@ -28,7 +28,7 @@ const page = () => {
                 collaborating with teams and clients to achieve shared goals. My
                 work is a fusion of creativity and technical expertise, ensuring
                 clean code and engaging experiences. I stay up-to-date with
-                industry trends and enjoy continuous learning. Let's work
+                industry trends and enjoy continuous learning. Let&apos;s work
                 together to create something extraordinary!
               </p>
             </div>
