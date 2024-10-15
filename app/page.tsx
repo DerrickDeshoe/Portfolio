@@ -2,11 +2,9 @@
 
 import Image from "next/image";
 import Hero from "../public/images/herro.svg";
-import Link from "next/link";
 import React from "react";
 import Button from "./Components/Button";
-import Particles from "react-tsparticles";
-import About from "../public/images/AboutMeBackground.svg";
+
 
 export default function Home() {
   return (

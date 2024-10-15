@@ -9,12 +9,7 @@ import LinkedIN from "../../public/images/LinkedIn.svg";
 import WhatsApp from "../../public/images/WhatsApp.svg";
 
 const NavBar = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
-
+  
   return (
     
       <div className="flex flex-col space-y-3 lg:space-y-0 items-center space-x-2 px-10 py-5 lg:flex-row justify-between w-full text-white bg-transparent absolute top-0 z-10">
