@@ -7,7 +7,6 @@ import Github from "../../public/images/contact/GitHub.svg";
 import WhatsApp from "../../public/images/contact/WhatsApp.svg";
 import LinkedIn from "../../public/images/contact/LinkedIn.svg";
 import Call from "../../public/images/contact/Call.svg";
-import Button from "../Components/Button";
 
 const page = () => {
   return (
