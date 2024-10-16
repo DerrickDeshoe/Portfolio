@@ -4,13 +4,13 @@ import AboutMe from '../../public/images/Group 3689.svg'
 
 const page = () => {
   return (
-    <div className=" lg:bg-about lg:bg-no-repeat lg:bg-center h-[96vh] relative text-white bg-black ">
-      <div className=" flex absolute top-0 w-full h-full bg-overlay bg-opacity-[50%] items-start">
-        <div className="flex flex-col space-y-5 lg:w-[80%] px-10 lg:mt-20">
-         <div className="w-[35%]">
+    <div className=" bg-about lg:bg-no-repeat lg:bg-center h-[100vh] w-full relative text-white bg-black ">
+      <div className=" flex items-center absolute top-0 w-full h-full bg-overlay bg-opacity-[50%] lg:items-start">
+        <div className="flex items-center flex-col space-y-[5%] lg:w-[80%] lg:mt-[12%] lg:items-start">
+         <div className="w-[50%] lg:w-[25%] absolute top-[13%] lg:top-[10%]">
           <Image src={AboutMe} alt="Image" />
          </div>
-          <div className="flex flex-col relative">
+          <div className="flex flex-col relative px-10">
             <div className="relative">
               <h1 className="font-bold lg:text-4xl text-[20px] lg:w-[460px] ">
                 I&apos;m a skilled web developer, UX/UI designer, and digital
@@ -20,7 +20,7 @@ const page = () => {
                 <p className="text-xs lg:text-[15px]">I bring ideas to</p>
               </div>
             </div>
-            <div className="hidden lg:flex lg:absolute lg:right-[275px] lg:top-[93px] lg:text-lg xl:right-[530px]">I bring ideas to</div>
+            <div className="hidden lg:flex lg:absolute lg:right-[275px] lg:top-[93px] lg:text-lg xl:left-[400px]">I bring ideas to</div>
             <div>
               <p className=" text-xs lg:text-[15px] lg:w-[50%] leading-normal ">
                 life by coding beautiful websites, creating user-friendly
