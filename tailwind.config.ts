@@ -26,7 +26,7 @@ const config: Config = {
 
       backgroundImage: {
         'hero': "url('../public/images/herro.svg')",
-        'about': "url('../public/images/aboutmebackground.svg')",
+        'about': "url('../public/images/about me/aboutmebackground.svg')",
         'work': "url('../public/images/Myworkbackground.svg')",
         'contact': "url('../public/images/ContactImage.svg')",
        
