@@ -63,7 +63,7 @@ const page = () => {
       <div className=" z-10 flex flex-col justify-between mt-10 items-center w-full lg:w-[80%] px-5 lg:px-0 space-y-5 lg:space-y-3 lg:space-x-10 lg:items-start lg:mt-[8%]">
         {/* Image on the left */}
         <div className="w-[60%] lg:w-[25%] absolute top-[12%] lg:top-[10%] lg:left-0">
-          <Image src={About} alt="About Image" />
+          <Image src={About} alt="image" />
         </div>
 
         {/* Slider content */}

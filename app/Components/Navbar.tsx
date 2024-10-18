@@ -5,7 +5,6 @@ import {
   HiHome,
   HiUser,
   HiViewColumns,
-  HiRectangleGroup,
   HiEnvelope,
 } from "react-icons/hi2";
 

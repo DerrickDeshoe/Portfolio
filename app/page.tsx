@@ -4,7 +4,6 @@ import Image from "next/image";
 import Hero from "../public/images/herro.svg";
 import React from "react";
 import Button from "./Components/Button";
-import Link from "next/link";
 
 export default function Home() {
   return (
@@ -32,7 +31,7 @@ export default function Home() {
         </div>
       </div>
       <div className="mt-20 lg:mt-15 lg:ml-[5%]">
-        <Link href='#'><Button /></Link>  
+        <Button /> 
       </div>
     </div>
   );
