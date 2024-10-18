@@ -1,5 +1,3 @@
-
-
 'use client'
 
 import React, { useState } from "react";
@@ -23,14 +21,13 @@ const Page = () => {
   });
 
   // Handle form input change
-  const handleChange = (e) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
   // Handle form submission
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault(); // Prevent page reload
-    // Process form data, you can send it to your server or API
     console.log(formData); // For now, we'll just log the form data
     // Add further logic here to send the data to a backend or API.
   };
@@ -109,4 +106,3 @@ const Page = () => {
 };
 
 export default Page;
-
