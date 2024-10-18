@@ -4,12 +4,12 @@ import Image from "next/image";
 import Hero from "../public/images/herro.svg";
 import React from "react";
 import Button from "./Components/Button";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <div className="bg-grayishBlack h-[100vh] relative px-10 flex flex-col items-center justify-center lg:items-start">
-      {/* <Particles/> */}
-
+   
       <div className="hidden md:flex lg:w-[70%] xl:w-[60%] absolute bottom-0 right-0">
         <Image src={Hero} alt="image" />
       </div>
@@ -32,7 +32,7 @@ export default function Home() {
         </div>
       </div>
       <div className="mt-20 lg:mt-15 lg:ml-[5%]">
-        <Button />
+        <Link href='#'><Button /></Link>  
       </div>
     </div>
   );
