@@ -1,4 +1,3 @@
-
 'use client'
 
 import React, { useState } from "react";
@@ -12,7 +11,7 @@ import WhiteSkills from "../../public/images/about me/SkillsWhite.svg";
 import LearningWhite from "../../public/images/about me/LearningWhite.svg";
 import PhilosophyWhite from "../../public/images/about me/PhilosophyWhite.svg";
 
-const page = () => {
+const Page = () => {
   // State to track the current slide
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -96,5 +95,4 @@ const page = () => {
   );
 };
 
-export default page;
-
+export default Page;

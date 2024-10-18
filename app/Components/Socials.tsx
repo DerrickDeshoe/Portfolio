@@ -1,19 +1,18 @@
-import React from 'react'
-import Image, { StaticImageData } from 'next/image'
+import React from 'react';
+import Image, { StaticImageData } from 'next/image';
 
-interface socials {
-
-    image: StaticImageData,
-    details: String
+interface SocialsProps {
+  image: StaticImageData;
+  details: string; // Changed to 'string'
 }
 
-const Socials = (props:socials) => {
+const Socials = (props: SocialsProps) => {
   return (
     <div className='flex items-center space-x-2 mt-5 lg:mt-0'>
-         <Image src={props.image} alt='image' className='w-[15%] lg:w-[12%]'/>
-         <p>{props.details}</p>
+      <Image src={props.image} alt='image' className='w-[15%] lg:w-[12%]' />
+      <p>{props.details}</p>
     </div>
-  )
-}
+  );
+};
 
-export default Socials
+export default Socials;

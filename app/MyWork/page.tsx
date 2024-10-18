@@ -1,4 +1,3 @@
-
 'use client';
 
 import React, { useState } from "react";
@@ -10,13 +9,12 @@ import Travel from '../../public/images/my work/Travel.png';
 import { RxDoubleArrowLeft } from "react-icons/rx";
 import { RxDoubleArrowRight } from "react-icons/rx";
 
-const page = () => {
+const Page = () => {  // Changed 'page' to 'Page'
   // State to track the current slide
   const [currentIndex, setCurrentIndex] = useState(0);
 
   // Array of Projects components
   const slides = [
-
     {
       image: Gamer,
       description:
@@ -27,15 +25,14 @@ const page = () => {
       image: Travel,
       description:
         "Travel Buddy is a user-friendly travel website offering curated recommendations for top places to visit, along with various travel-related services. It helps users explore destinations, discover hidden gems and plan their trips efficiently, providing a seamless travel experience for adventurers",
-        link: 'https://vercel.live/link/travelguide-seven.vercel.app/?via=team-dashboard-project-entity&p=1'
+      link: 'https://vercel.live/link/travelguide-seven.vercel.app/?via=team-dashboard-project-entity&p=1'
     },
     {
       image: Travel,
       description:
         "Travel Buddy is a user-friendly travel website offering curated recommendations for top places to visit, along with various travel-related services. It helps users explore destinations, discover hidden gems and plan their trips efficiently, providing a seamless travel experience for adventurers",
-        link: 'https://vercel.live/link/travelguide-seven.vercel.app/?via=team-dashboard-project-entity&p=1'
+      link: 'https://vercel.live/link/travelguide-seven.vercel.app/?via=team-dashboard-project-entity&p=1'
     },
-  
   ];
 
   // Function to go to the next slide
@@ -95,7 +92,7 @@ const page = () => {
             onClick={nextSlide}
             className="bg-white hover:bg-gray text-black py-2 px-4 rounded-lg"
           >
-           <RxDoubleArrowRight/>
+            <RxDoubleArrowRight/>
           </button>
         </div>
       </div>
@@ -103,6 +100,4 @@ const page = () => {
   );
 };
 
-export default page;
-
-
+export default Page; // Exporting with an uppercase name
