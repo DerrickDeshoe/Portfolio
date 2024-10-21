@@ -37,6 +37,10 @@ const config: Config = {
         red: "#C30004",
         overlay: "#050814",
       },
+
+      fontFamily:{
+        port:'poetsen'
+      }
     },
   },
   plugins: [],

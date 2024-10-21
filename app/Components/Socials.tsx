@@ -9,8 +9,8 @@ interface SocialsProps {
 const Socials = (props: SocialsProps) => {
   return (
     <div className='flex items-center space-x-2 mt-5 lg:mt-0'>
-      <Image src={props.image} alt='image' className='w-[15%] lg:w-[12%]' />
-      <p>{props.details}</p>
+      <Image src={props.image} alt='image' className='w-[12%] lg:w-[10%]' />
+      <p className='text-xs md:text-sm'>{props.details}</p>
     </div>
   );
 };
