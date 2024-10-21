@@ -52,14 +52,14 @@ const Page = () => {  // Changed 'page' to 'Page'
       {/* Background overlay */}
       <div className="absolute top-0 w-full h-full bg-black bg-opacity-50"></div>
 
-      <div className="relative z-10 flex flex-col lg:flex-col justify-center items-center w-full h-full px-5 lg:justify-center lg:items-start lg:px-0 space-y-3 lg:space-y-2 lg:space-x-10 pt-[4rem] lg:pt-[10%] ">
+      <div className="relative z-10 flex flex-col lg:flex-col justify-center items-center md:flex-col md:items-center w-full h-full px-5 lg:justify-center lg:items-start lg:px-0 space-y-3 lg:space-y-2 lg:space-x-10 pt-[4rem] lg:pt-[10%] ">
         {/* Image on the left */}
-        <div className="w-[60%] lg:w-[25%] absolute top-[12%] lg:top-[10%] lg:left-0">
+        <div className="w-[60%] lg:w-[25%] absolute top-[12%] md:top-[10%] lg:left-0">
           <Image src={MyWork} alt="Work Image" />
         </div>
 
         {/* Projects Slider */}
-        <div className="w-full lg:w-[60%] flex justify-center items-center overflow-hidden relative ">
+        <div className=" lg:w-[60%]  flex justify-center items-center overflow-hidden relative ">
           {/* Projects components that slide */}
           <div
             className="flex transition-transform duration-1000 ease-in-out"
@@ -81,7 +81,7 @@ const Page = () => {  // Changed 'page' to 'Page'
         </div>
 
         {/* Slider Controls */}
-        <div className="flex justify-center w-full lg:w-[37%] xl:w-[35%] space-x-5 mt-5">
+        <div className="flex justify-center w-full md:w-[80%] lg:w-[37%] xl:w-[35%] space-x-5 mt-5">
           <button
             onClick={prevSlide}
             className="bg-white hover:bg-gray text-black py-2 px-4 rounded-lg"

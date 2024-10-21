@@ -36,10 +36,15 @@ const config: Config = {
         gray: '#4E545B',
         red: "#C30004",
         overlay: "#050814",
+        lightGray: '#D9D9D9',
+        hoverGray: '#ACA5A5'
       },
 
       fontFamily:{
-        port:'poetsen'
+        port:'poetsen',
+        nunito: 'nunito',
+        nuniBold: 'nunitoBold',
+
       }
     },
   },
